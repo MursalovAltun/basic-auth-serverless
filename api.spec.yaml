@@ -1,0 +1,29 @@
+openapi: "3.0.1"
+info:
+  title: "eppendorf-auth-api"
+  version: "0.1.0"
+servers:
+  - url: ${api_url}
+components:
+  x-amazon-apigateway-integrations:
+    authorize:
+      uri: ${eppendorf_auth_lambda_arn}
+      payloadFormatVersion: "1.0"
+      type: "aws_proxy"
+      httpMethod: "POST"
+      connectionType: "INTERNET"
+paths:
+  /authorize:
+    post:
+      x-amazon-apigateway-integration:
+        $ref: "#/components/x-amazon-apigateway-integrations/authorize"
+      parameters:
+        - in: header
+          name: Authorization
+          schema:
+            type: string
+      responses:
+        200:
+          description: "Successfully authorized"
+        400:
+          description: "Invalid credentials"

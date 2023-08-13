@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2711A5E6-5F36-4EB3-830F-9F5EAE4D31C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EppendorfAuth", "src\EppendorfAuth\EppendorfAuth.csproj", "{4F8BA8AE-19E3-4841-B681-987DEEB8EA40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7C3A85F0-62C2-42D5-BF8D-7A2C758F83FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EppendorfAuth.Tests", "test\EppendorfAuth.Tests\EppendorfAuth.Tests.csproj", "{6854B662-D892-4650-90C6-A6A527C4A399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EppendorfAuthApi.Core", "src\EppendorfAuthApi.Core\EppendorfAuthApi.Core.csproj", "{54797FE0-0E98-4C1D-9A9C-61D632E5BA43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EppendorfAuthApi.Implementations", "src\EppendorfAuthApi.Implementations\EppendorfAuthApi.Implementations.csproj", "{64C58E85-A709-4274-BFB7-1F5905F9A82A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EppendorfAuthApi.Implementations.Tests", "test\EppendorfAuthApi.Implementations.Tests\EppendorfAuthApi.Implementations.Tests.csproj", "{77E3F0CF-FD26-4C47-A117-B8477C5DDB1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EppendorfAuthApi.Core.Tests", "test\EppendorfAuthApi.Core.Tests\EppendorfAuthApi.Core.Tests.csproj", "{CA941FD9-32E5-4B32-8E1C-04EB2F03F15C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F8BA8AE-19E3-4841-B681-987DEEB8EA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8BA8AE-19E3-4841-B681-987DEEB8EA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8BA8AE-19E3-4841-B681-987DEEB8EA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8BA8AE-19E3-4841-B681-987DEEB8EA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6854B662-D892-4650-90C6-A6A527C4A399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6854B662-D892-4650-90C6-A6A527C4A399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6854B662-D892-4650-90C6-A6A527C4A399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6854B662-D892-4650-90C6-A6A527C4A399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54797FE0-0E98-4C1D-9A9C-61D632E5BA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54797FE0-0E98-4C1D-9A9C-61D632E5BA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54797FE0-0E98-4C1D-9A9C-61D632E5BA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54797FE0-0E98-4C1D-9A9C-61D632E5BA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C58E85-A709-4274-BFB7-1F5905F9A82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C58E85-A709-4274-BFB7-1F5905F9A82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C58E85-A709-4274-BFB7-1F5905F9A82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C58E85-A709-4274-BFB7-1F5905F9A82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E3F0CF-FD26-4C47-A117-B8477C5DDB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E3F0CF-FD26-4C47-A117-B8477C5DDB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E3F0CF-FD26-4C47-A117-B8477C5DDB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E3F0CF-FD26-4C47-A117-B8477C5DDB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA941FD9-32E5-4B32-8E1C-04EB2F03F15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA941FD9-32E5-4B32-8E1C-04EB2F03F15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA941FD9-32E5-4B32-8E1C-04EB2F03F15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA941FD9-32E5-4B32-8E1C-04EB2F03F15C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F8BA8AE-19E3-4841-B681-987DEEB8EA40} = {2711A5E6-5F36-4EB3-830F-9F5EAE4D31C4}
+		{6854B662-D892-4650-90C6-A6A527C4A399} = {7C3A85F0-62C2-42D5-BF8D-7A2C758F83FC}
+		{54797FE0-0E98-4C1D-9A9C-61D632E5BA43} = {2711A5E6-5F36-4EB3-830F-9F5EAE4D31C4}
+		{64C58E85-A709-4274-BFB7-1F5905F9A82A} = {2711A5E6-5F36-4EB3-830F-9F5EAE4D31C4}
+		{77E3F0CF-FD26-4C47-A117-B8477C5DDB1C} = {7C3A85F0-62C2-42D5-BF8D-7A2C758F83FC}
+		{CA941FD9-32E5-4B32-8E1C-04EB2F03F15C} = {7C3A85F0-62C2-42D5-BF8D-7A2C758F83FC}
+	EndGlobalSection
+EndGlobal
